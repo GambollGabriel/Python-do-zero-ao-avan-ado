@@ -57,6 +57,7 @@ for g in resultados:
     print(g)
 """
 
+
 #Funções parâmetros
  
 def contar(caractere, num=11):
@@ -64,3 +65,16 @@ def contar(caractere, num=11):
         print(caractere)
  
 contar('#', 8)  
+
+z = 5
+x = 6
+y = 8
+
+def soma_mult(a, b, c = 0):
+    if c == 0:
+        return a * b
+    else:
+        return a + b 
+
+res = soma_mult(z, x, y)
+print(res)
